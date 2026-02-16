@@ -54,6 +54,25 @@ p {
   font-family: "gillThin";
   src: url(../css/fonts/GillSans-Light.ttf);
 }
+@media screen and (max-width: 1110px) {
+  #app,
+  nav,
+  footer {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .booking-form-holder .two-inputs {
+    flex-direction: column wrap;
+  }
+  .booking-form-holder .two-inputs .two-col-text-input {
+    width: 100%;
+  }
+  .booking-form-holder .two-inputs .two-col-text-input:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
 nav {
   width: 980px;
   height: 92px;

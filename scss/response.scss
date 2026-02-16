@@ -1,4 +1,5 @@
-// @media screen and (max-width: 1110px) {
+// targeting the app and nav - does not work
+//  @media screen and (max-width: 1110px) {
 //   #app,
 //   nav,
 //   footer {
@@ -6,6 +7,7 @@
 //   }
 // }
 
+// targeting the form classes, added the app id and home class - does not work, does not work with just booking classes
 // @media screen and (max-width: 900px) {
 //   #app {
 //     .home {
@@ -28,6 +30,7 @@
 //   }
 // }
 
+// targeting just the form resposne - does not work
 // @media screen and (max-width: 900px) {
 //   .form-response {
 //     flex-direction: column;
@@ -35,6 +38,7 @@
 //   }
 // }
 
+// targeting the whole form container - does not work
 // @media (max-width: 1000px) {
 //   .booking-form-holder {
 //     .two-inputs {
@@ -46,6 +50,7 @@
 //   }
 // }
 
+// targeting everything in app  - does not work
 // @media (max-width: 1000px) {
 //   #app {
 //     flex-direction: column;

@@ -54,6 +54,67 @@ p {
   font-family: "gillThin";
   src: url(../css/fonts/GillSans-Light.ttf);
 }
+@media screen and (max-width: 900px) {
+  .home-content .promos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-content .promos .promo-image-box {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  nav,
+  footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 50%;
+    width: 100%;
+    background-color: #000;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form-response {
+    text-align: center;
+    justify-content: center;
+  }
+  .form-response .two-col-text-input {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .form-response .one-col-text-input {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    width: 80%;
+    align-items: center;
+  }
+  .form-response .one-col-text-input .cal-icon {
+    display: none;
+  }
+  .form-response .three-col-text-input {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+  .form-response .three-col-text-input .children,
+  .form-response .three-col-text-input .adult,
+  .form-response .three-col-text-input .rooms {
+    display: none;
+  }
+  .form-response .message-text-input {
+    padding-left: 20%;
+    width: 80%;
+  }
+}
 nav {
   width: 980px;
   height: 92px;

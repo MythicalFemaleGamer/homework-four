@@ -56,3 +56,82 @@
 //     flex-direction: column;
 //   }
 // }
+
+//trying media query on promo images - works
+
+@media screen and (max-width: 900px) {
+  .home-content {
+    .promos {
+      flex-direction: column;
+      align-items: center;
+
+      .promo-image-box {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+//trying nav again - works
+
+@media screen and (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  nav,
+  footer {
+    // position: sticky;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 50%;
+    width: 100%;
+    background-color: #000;
+  }
+}
+
+//trying booking form again because I hate myself
+
+@media screen and (max-width: 900px) {
+  .form-response {
+    text-align: center;
+    justify-content: center;
+
+    .two-col-text-input {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      row-gap: 10px;
+    }
+    .one-col-text-input {
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-left: 20%;
+      width: 80%;
+      align-items: center;
+
+      .cal-icon {
+        display: none;
+      }
+    }
+
+    .three-col-text-input {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+
+      .children,
+      .adult,
+      .rooms {
+        display: none;
+      }
+    }
+
+    .message-text-input {
+      padding-left: 20%;
+      width: 80%;
+    }
+  }
+}
